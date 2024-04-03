@@ -1,0 +1,24 @@
+/* Altera o fundo para uma tonalidade de marrom claro, tamanho do texto para 40px, cor da letra branca, alinha o texto no centro e define a fonte para “Lucida Sans” */
+body {
+    background-color: #d2b48c; /* marrom claro */
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  /* Ao passar o mouse sobre o título o fundo deve mudar para a cor preta */
+  h1:hover {
+    background-color: black;
+  }
+  
+  /* Define a fonte “Arial” para todo o conteúdo da página */
+  body, p {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Define um recuo de 20px para todos os parágrafos */
+  p {
+    text-indent: 20px;
+  }
+  

@@ -1,0 +1,41 @@
+/* Reset de margens e preenchimentos para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para a barra lateral */
+  .sidebar {
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background-color: #f0f0f0; /* Cor de fundo diferente da cor de fundo do conteúdo principal */
+  }
+  
+  /* Estilos para o conteúdo principal */
+  .content {
+    float: right;
+    width: 80%;
+    height: 100vh;
+    background-color: #e0e0e0; /* Cor de fundo diferente da cor de fundo da barra lateral */
+    display: flex;
+    justify-content: center; /* Alinhamento horizontal ao centro */
+    align-items: center; /* Alinhamento vertical ao centro */
+  }
+  
+  /* Estilos para os links de navegação na barra lateral */
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
